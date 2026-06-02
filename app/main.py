@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 from .schemas import (
-    ChatRequest,
-    ChatResponse,
     InsuranceAnalysisRequest,
     InsuranceAnalysisResponse,
     InsuranceAssistantResponse,
@@ -15,7 +13,6 @@ from .schemas import (
     SecureLifeAssistantResponse,
 )
 from .ollama_client import (
-    chat_with_ollama,
     analyze_insurance_message,
     run_insurance_assistant,
     answer_personal_question,
@@ -37,15 +34,6 @@ def root():
     return {
         "message": "SecureLife Local Insurance AI Assistant API is running."
     }
-
-@app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
-    result = chat_with_ollama(
-        message=request.message,
-        model=request.model,
-        temperature=request.temperature,
-    )
-    return result
 
 @app.post("/analyze-insurance-message", response_model=InsuranceAnalysisResponse)
 def analyze_message(request: InsuranceAnalysisRequest):
