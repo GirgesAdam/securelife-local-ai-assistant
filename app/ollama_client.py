@@ -82,42 +82,6 @@ def extract_access_code(message: str) -> str | None:
 
     return None
 
-def chat_with_ollama(message: str, model: str, temperature: float):
-    response = ollama.chat(
-        model=model,
-        messages=[
-            {
-                "role": "user",
-                "content": message,
-            }
-        ],
-        options={
-            "temperature": temperature
-        }
-    )
-
-    answer = response["message"]["content"]
-
-    total_duration = response.get("total_duration")
-    eval_count = response.get("eval_count")
-    eval_duration = response.get("eval_duration")
-
-    total_duration_ms = None
-    tokens_per_second = None
-
-    if total_duration:
-        total_duration_ms = total_duration / 1_000_000
-
-    if eval_count and eval_duration:
-        tokens_per_second = eval_count / eval_duration * 1_000_000_000
-
-    return {
-        "answer": answer,
-        "model": model,
-        "total_duration_ms": total_duration_ms,
-        "eval_count": eval_count,
-        "tokens_per_second": tokens_per_second,
-    }
 
 def run_insurance_assistant(message: str, model: str, temperature: float):
     analysis = analyze_insurance_message(
