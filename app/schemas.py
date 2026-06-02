@@ -1,19 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import Literal
 
-class ChatRequest(BaseModel):
-    message: str
-    model: str = "qwen2.5:7b"
-    temperature: float = 0.0
-
-
-class ChatResponse(BaseModel):
-    answer: str
-    model: str
-    total_duration_ms: float | None = None
-    eval_count: int | None = None
-    tokens_per_second: float | None = None
-
 
 class InsuranceAnalysisRequest(BaseModel):
     message: str
