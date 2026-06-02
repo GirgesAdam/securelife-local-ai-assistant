@@ -1,0 +1,6 @@
+customer_id,full_name,email,phone,date_of_birth,city,access_code,created_at
+CUST-1001,Ahmed Hassan,ahmed.hassan@example.com,+20-100-111-0001,1988-04-14,Cairo,1234,2026-01-05 10:15:00
+CUST-1002,Mariam Ali,mariam.ali@example.com,+20-100-111-0002,1992-09-02,Alexandria,5678,2026-01-12 14:35:00
+CUST-1003,Omar Khaled,omar.khaled@example.com,+20-100-111-0003,1981-12-20,Giza,2468,2026-02-01 09:05:00
+CUST-1004,Nour Samir,nour.samir@example.com,+20-100-111-0004,1997-06-11,Mansoura,1357,2026-02-17 16:42:00
+CUST-1005,Youssef Nabil,youssef.nabil@example.com,+20-100-111-0005,1976-03-28,Tanta,9999,2026-03-03 11:20:00

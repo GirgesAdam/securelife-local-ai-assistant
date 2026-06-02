@@ -1,0 +1,11 @@
+addon_id,policy_number,addon_name,addon_status,effective_date
+ADD-001,SL-MOTOR-1001,Roadside Assistance,Included,2026-01-01
+ADD-002,SL-MOTOR-1001,Theft Coverage,Included,2026-01-01
+ADD-003,SL-MOTOR-1001,Agency Repair,Not Included,2026-01-01
+ADD-004,SL-HEALTH-2001,Emergency Hospitalization,Included,2026-02-01
+ADD-005,SL-HEALTH-2001,Dental Coverage,Not Included,2026-02-01
+ADD-006,SL-TRAVEL-3001,Trip Cancellation,Included,2026-06-01
+ADD-007,SL-TRAVEL-3001,Lost Baggage,Included,2026-06-01
+ADD-008,SL-MOTOR-1002,Roadside Assistance,Included,2026-03-01
+ADD-009,SL-MOTOR-1002,Replacement Car Benefit,Included,2026-03-01
+ADD-010,SL-HEALTH-2002,Emergency Hospitalization,Included,2026-01-15

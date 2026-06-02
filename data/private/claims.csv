@@ -1,0 +1,5 @@
+claim_id,policy_number,claim_type,claim_status,submitted_date,estimated_resolution_date,last_update,claim_amount,approved_amount,updated_at
+CLM-9001,SL-MOTOR-1001,Vehicle Accident,Under Review,2026-05-10,2026-05-24,Repair estimate is being reviewed by the claims team.,42000.00,,2026-05-15 09:30:00
+CLM-9002,SL-HEALTH-2001,Emergency Hospitalization,Approved,2026-04-18,2026-04-22,Claim approved and payment processed to the hospital.,18500.00,18500.00,2026-04-22 10:10:00
+CLM-9003,SL-MOTOR-1002,Windshield Damage,Documents Required,2026-05-18,2026-05-28,Customer must upload damage photos and police/accident report if applicable.,8500.00,,2026-05-20 17:45:00
+CLM-9004,SL-TRAVEL-3001,Lost Baggage,New,2026-06-05,2026-06-15,Claim submitted. Waiting for airline irregularity report.,12000.00,,2026-06-05 18:00:00

@@ -1,0 +1,60 @@
+### Root
+GET http://127.0.0.1:8000/
+
+### General question
+POST http://127.0.0.1:8000/securelife-assistant
+Content-Type: application/json
+
+{
+  "session_id": "demo-user-1",
+  "message": "What policies does SecureLife offer?",
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}
+
+### Personal question - starts authentication
+POST http://127.0.0.1:8000/securelife-assistant
+Content-Type: application/json
+
+{
+  "session_id": "demo-user-2",
+  "message": "What is the status of my claim?",
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}
+
+### Send policy number
+POST http://127.0.0.1:8000/securelife-assistant
+Content-Type: application/json
+
+{
+  "session_id": "demo-user-2",
+  "message": "SL-MOTOR-1001",
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}
+
+### Send access code
+POST http://127.0.0.1:8000/securelife-assistant
+Content-Type: application/json
+
+{
+  "session_id": "demo-user-2",
+  "message": "1234",
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}
+
+### Ask another personal question in same session
+POST http://127.0.0.1:8000/securelife-assistant
+Content-Type: application/json
+
+{
+  "session_id": "demo-user-2",
+  "message": "Which add-ons are included in my policy?",
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}
+
+### End session
+POST http://127.0.0.1:8000/end-session?session_id=demo-user-2

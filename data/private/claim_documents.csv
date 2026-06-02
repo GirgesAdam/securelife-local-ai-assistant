@@ -1,0 +1,5 @@
+document_id,claim_id,document_name,document_status,uploaded_at
+DOC-8001,CLM-9001,Accident Report,Received,2026-05-10 15:30:00
+DOC-8002,CLM-9001,Vehicle Damage Photos,Received,2026-05-10 15:35:00
+DOC-8003,CLM-9003,Damage Photos,Missing,
+DOC-8004,CLM-9004,Airline Irregularity Report,Missing,

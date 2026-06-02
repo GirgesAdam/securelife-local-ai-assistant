@@ -1,0 +1,4 @@
+ticket_id,customer_id,policy_number,subject,status,priority,created_at,last_update
+TCK-5001,CUST-1001,SL-MOTOR-1001,Repair center appointment,Open,Medium,2026-05-12 10:00:00,Customer requested nearest approved repair center.
+TCK-5002,CUST-1002,SL-HEALTH-2001,Hospital network confirmation,Closed,Low,2026-03-04 09:20:00,Network hospital confirmed.
+TCK-5003,CUST-1004,SL-MOTOR-1002,Missing claim documents,Open,High,2026-05-20 17:48:00,Requested documents sent to customer by email.

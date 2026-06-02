@@ -1,0 +1,6 @@
+policy_number,customer_id,product_name,policy_type,start_date,end_date,status,premium,deductible,coverage_limit,vehicle_make,vehicle_model,vehicle_year,plate_number,created_at,updated_at
+SL-MOTOR-1001,CUST-1001,SecureLife Motor Comprehensive,Motor,2026-01-01,2026-12-31,Active,18500.00,2500.00,750000.00,Toyota,Corolla,2022,ABC-4821,2026-01-01 08:00:00,2026-05-15 09:30:00
+SL-HEALTH-2001,CUST-1002,SecureLife Health Gold,Health,2026-02-01,2027-01-31,Active,32000.00,500.00,1000000.00,,,,,2026-02-01 08:00:00,2026-04-22 10:10:00
+SL-TRAVEL-3001,CUST-1003,SecureLife Travel Protect,Travel,2026-06-01,2026-06-30,Active,2100.00,0.00,250000.00,,,,,2026-05-25 13:00:00,2026-05-25 13:00:00
+SL-MOTOR-1002,CUST-1004,SecureLife Motor Comprehensive,Motor,2026-03-01,2027-02-28,Active,22400.00,3000.00,900000.00,Hyundai,Tucson,2023,XYZ-9104,2026-03-01 08:00:00,2026-05-20 17:45:00
+SL-HEALTH-2002,CUST-1005,SecureLife Health Gold,Health,2026-01-15,2027-01-14,Pending Renewal,18500.00,750.00,500000.00,,,,,2026-01-15 08:00:00,2026-12-01 09:00:00
