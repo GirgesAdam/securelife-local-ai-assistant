@@ -211,18 +211,6 @@ The assistant uses an analyzer first, then routes the request to one of these ac
 - transfer to a human agent
 - reject out-of-scope questions
 
-## Model comparison idea
-
-You can use the same API to compare models such as:
-
-- `llama3.2:1b`
-- `phi4-mini`
-- `qwen2.5:7b`
-
-Compare them on:
-
-- intent classification quality
-- JSON validity
 - answer grounding
 - latency
 - tokens per second
